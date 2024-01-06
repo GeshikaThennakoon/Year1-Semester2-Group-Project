@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header li , a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:  16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links li a {
+    transition:  all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+color: rgb(6, 173, 234);
+}
+
+.hbutton button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(6, 173, 234);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+
+}
+
+.hbutton button:hover{
+    background-color: rgba(0, 136,169,0.8);
+
+
+}
+
+.footer{
+    background-color: #24252A;
+
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+flex-wrap: wrap;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color:rgb(6, 173, 234); ;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+} 
+
+.footer-col li a {
+    transition:  all 0.3s ease 0s;
+}
+
+
+.footer-col li a:hover {
+    color: rgb(6, 173, 234);
+    }
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+#container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    } 
+
+    h1 {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(6, 173, 234);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color:rgb(75, 106, 117);
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+    }
+    .forgot-password {
+        text-align: center;
+        margin-bottom: 10px; 
+        
+    }
+
+    .forgot-password a {
+        color: #111113; 
+        text-decoration: none;
+      }
+  
+      .forgot-password a:hover {
+        color:rgb(6, 173, 234);
+      }
+
+      .signup-link {
+        text-align: center;
+        margin-top: 10px;
+      
+      }
+
+      .signup-link a{
+        color: #111113; 
+        text-decoration: none;
+      }
+
+      .signup-link a:hover {
+        color:rgb(6, 173, 234);
+      }
+    .login-link a{
+    color: #111113; 
+    text-decoration: none;
+
+  }
+  .login-link a:hover {
+    color:rgb(6, 173, 234);
+  }

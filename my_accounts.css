@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('image/ContactUs.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 550px;
+    height: 650px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.back
+{
+    margin-left: 9cm;
+    width: 2cm;
+    background-color: rgb(123, 3, 3);  
+}
+
+h2{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2cm;
+    font-size: 50px;
+    color: black;
+    text-shadow: 0 0 12px rgb(6, 173, 234);
+    margin-right: 2cm;
+}
+.label
+{
+    color: white;
+}
+.value
+{
+    color: white;
+}
+.h3
+{
+    position: relative;
+    color: white;
+    margin-bottom: 1cm;
+   
+}
+.loginbutton
+{
+   margin: 30px 0px 0px 80px;
+   background-color: rgb(119, 13, 13);
+   transition: background-color 0.3s ease;
+   box-shadow: 0px 5px 20px rgb(229, 100, 100);
+   width: 5cm;
+   height: 1cm;
+   border:2px solid rgb(0, 0, 0);
+   border-radius: 20px;
+   margin-top: 1cm;
+   margin-right: 4cm;
+  
+}
+.loginbutton:hover
+ {
+    background-color: rgb(186, 37, 37);
+  }
+.form-value
+{
+    margin-top: 30px;
+    margin-left: 2cm;
+}
+.Viewbutton
+{
+    background-color:rgb(11, 114, 152) ;
+    transition: background-color 0.3s ease;
+    width: 4cm;
+    box-shadow: 0px 5px 20px rgb(6, 173, 234);
+    border-radius: 20px;
+
+    
+}
+.Viewbutton:hover
+{
+    background-color:rgb(6, 173, 234);
+}
+.Changebutton
+{
+    background-color:rgb(11, 114, 152) ;
+    transition: background-color 0.3s ease;
+    width: 4cm;
+    box-shadow: 0px 5px 20px rgb(6, 173, 234);
+    border-radius: 20px;
+}
+.Changebutton:hover
+{
+    background-color:rgb(6, 173, 234);
+}
+

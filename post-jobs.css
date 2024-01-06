@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  
+   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+body {
+    background-color: #e7edee;
+  }
+  
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+} 
+
+.buttons a {
+    margin-right: 10px;
+  }
+  
+  .actionbutton2 {
+    margin-right: 10px;
+  }
+
+  .actionbutton,
+  button.actionbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  
+  .actionbutton2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+.newjbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(6, 173, 234);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.h4-tag {
+    margin-top: 0;
+}
+
+.card {
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; */
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body table {
+    margin-bottom: 0;
+}
+
+.card-body h5 {
+    margin: 10px 0;
+}

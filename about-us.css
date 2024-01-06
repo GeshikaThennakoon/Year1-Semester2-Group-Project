@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&display=swap');
+
+
+body {
+    background-color: #e7edee;
+  }
+
+.bigTextCard {
+    text-align: center;
+  }
+  
+  .bigtext {
+    margin-top: 0; /* Remove the negative margin */
+  }
+.bigtext{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 200px;
+}
+
+.container {
+    position: relative;
+    width: 1360px; /* Adjust the width as needed */
+    height: 550px; /* Adjust the height as needed */
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  .dayImage , .nightImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .dayImage {
+    opacity: 1;
+  }
+  
+  .nightImage {
+    opacity: 0;
+  }
+  
+  .container:hover .dayImage {
+    opacity: 0;
+  }
+  
+  .container:hover .nightImage {
+    opacity: 1;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #FF4500;
+  }
+
+  .aboutp{
+    max-width: 1000px;
+    margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: justify;
+
+  }

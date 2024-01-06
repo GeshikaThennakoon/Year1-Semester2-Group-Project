@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: #e7edee;
+height: auto;
+}
+.bigTextCard {
+    display: inline-block;
+    text-align: left;
+    position: relative; /* Add relative positioning */
+    left: 300px;
+  }
+  
+  .bigtext {
+    margin-top: 0; /* Remove the negative margin */
+  }
+.bigtext{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 200px;
+}
+  .woman {
+    position: relative; /* Add relative positioning */
+    bottom: 760px;
+    left: 750px; 
+    width: 500px;
+
+  }
+  
+  .woman img {
+    width: 500px;
+  }
+
+  .line{
+    border:10px solid;
+    position: relative;
+    bottom: 770px;
+  }
+
+  .bcontainer {
+    display: flex;
+    position: relative;
+  }
+  
+  .black-div {
+    flex: 1;
+    height: 200px;
+    background-color: #000;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-left: 20px;
+
+    position: relative;
+    bottom: 770px;
+
+  }
+  
+  .black-div:last-child {
+    margin-right: 10;
+    
+  }
+
+  .jobtext{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+font-size: 70px;
+position: relative;
+left: 100px;
+top: 30px;
+
+  }
+
+  .clickhere {
+    display: inline-block;
+    padding: 30px 60px;
+    border-radius: 5px;
+    background-color: rgb(6, 173, 234); 
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    left: 380px;
+    bottom: 100px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+font-weight: bold;
+color: white;
+
+  }
+
+  .second{
+    position: relative;
+bottom: 970px;
+left: 770px;
+  }
+  
+
+  
+
+  
